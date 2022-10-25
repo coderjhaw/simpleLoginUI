@@ -63,9 +63,12 @@ p {
   color: rgba(100,175,226,255);
   font-family: Roboto,Arial;
 }
-.check-box::checkbox {
-  border-radius: 50%;
+
+.check-box {
+  border: none;
+  outline: none;
 }
+
 .remember-me, .forgot-password {
   display: inline-block;
   color: rgba(122,129,137,255);
@@ -81,6 +84,7 @@ p {
 
 .forgot-password:hover {
   color: white;
+  text-decoration: underline;
 }
 
 .remember-me {

@@ -12,7 +12,7 @@ h1 {
   height: 350px;
   padding-top: 90px;
   padding-bottom: 38px;
-  padding-left: 105px;
+  padding-left: 80px;
   border-radius: 10px;
   margin: auto;
   border: 2px solid rgba(77,157,209,255);
@@ -33,7 +33,7 @@ p {
 .username-field, .password-field {
   padding: 15px;
   border: solid;
-  width: 265px;
+  width: 300px;
   margin-bottom: 13px;
   border-radius: 7px;
   border-color: rgba(76,151,195,255);
@@ -56,6 +56,7 @@ p {
   border: none;
   background-color: transparent;
   color: rgba(100,175,226,255);
+  width: 90%;
 }
 
 .username:focus, .password:focus {
@@ -64,9 +65,9 @@ p {
   font-family: Roboto,Arial;
 }
 
-.check-box {
-  border: none;
-  outline: none;
+
+input[type="checkbox"]:checked + .remember-me{
+  color: white;
 }
 
 .remember-me, .forgot-password {
@@ -110,22 +111,28 @@ p {
 }
 
 .btn-login:hover {
-  opacity: 0.8;
+  background-color: rgba(61,190,175,255);
 }
 
 .btn-login:active {
-  opacity: 0.5;
+  opacity: 0.4;
 }
-footer p {
+
+footer {
+  margin-top: 250px;
+}
+
+.made-by {
   position: relative;
   width: 100%;
-  margin-top: 250px;
   text-align: center;
   color: white;
   font-family: Roboto;
+  font-size: 20px;
+  transition: color 0.5s;
 }
 
-footer p:hover {
+.made-by:hover {
   cursor: pointer;
   text-decoration: underline;
   color: rgba(61,230,175,255);

@@ -1,0 +1,128 @@
+body {
+  background-color: rgba(0,18,32,255);
+}
+h1 {
+  color: rgba(76,151,195,255);
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+#container {
+  width: 400px;
+  height: 350px;
+  padding-top: 90px;
+  padding-bottom: 38px;
+  padding-left: 105px;
+  border-radius: 10px;
+  margin: auto;
+  border: 2px solid rgba(77,157,209,255);
+  box-shadow: -5px 4px 20px black;
+  margin-top : 250px;
+  transition: box-shadow 0.7s;
+  margin-bottom: 10px;
+}
+
+#container:hover {
+  box-shadow: -5px 4px 20px rgba(77,157,209,255);
+}
+
+p {
+  margin: 0;
+}
+
+.username-field, .password-field {
+  padding: 15px;
+  border: solid;
+  width: 265px;
+  margin-bottom: 13px;
+  border-radius: 7px;
+  border-color: rgba(76,151,195,255);
+  border-width: 2px;
+  background-color: rgba(8,35,54,255);
+}
+
+.username::placeholder, .password::placeholder {
+  color: rgba(100,175,226,255);
+}
+
+.fa-user, .fa-lock {
+  margin-right: 8px;
+  color: rgba(76,151,195,255);
+}
+
+.username, .password{
+  font-family: Roboto,Arial;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: rgba(100,175,226,255);
+}
+
+.username:focus, .password:focus {
+  outline: none;
+  color: rgba(100,175,226,255);
+  font-family: Roboto,Arial;
+}
+.check-box::checkbox {
+  border-radius: 50%;
+}
+.remember-me, .forgot-password {
+  display: inline-block;
+  color: rgba(122,129,137,255);
+  vertical-align: top;
+  font-family: Raleway;
+}
+
+.forgot-password {
+  position: 1px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  color: white;
+}
+
+.remember-me {
+  margin-right: 25px;
+}
+
+.row-2-row1 {
+  margin-bottom: 13px;
+}
+
+.btn-login {
+  padding-right: 44px;
+  padding-left: 44px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  background-color: rgba(61,230,175,255);
+  border-radius: 5px;
+  border: none;
+  font-weight: light;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+}
+
+.btn-login:active {
+  opacity: 0.5;
+}
+footer p {
+  position: relative;
+  width: 100%;
+  margin-top: 250px;
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+}
+
+footer p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgba(61,230,175,255);
+}
